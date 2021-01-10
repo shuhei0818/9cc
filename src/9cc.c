@@ -6,6 +6,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         fprintf(stderr, "Wrong number of arguments\n");
+        return 1;
     }
 
     char *p = argv[1];
